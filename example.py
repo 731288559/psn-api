@@ -40,7 +40,7 @@ user = User(tokens)
 # print(user.userinfo('haruhi2728'))
 # print(friend.get_info('onnkei'))
 
-print(user.gamesinfo())               # HTTP Error 403: Forbidden
+# print(user.gamesinfo())               # HTTP Error 403: Forbidden
 # print(user.gamesinfo('haruhi2728'))   # HTTP Error 403: Forbidden
 
 # print(user.friendsinfo())
@@ -49,5 +49,4 @@ print(user.gamesinfo())               # HTTP Error 403: Forbidden
 
 # print(user.trophyinfo('onnkei'))
 
-# print(user.trophy_info_by_id())
 # print(user.trophy_all())
